@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Calculator</title>
+  <link rel="icon" type="image/x-icon" href="Calculator_512.webp">
+  <link rel ="stylesheet" href="mystyle.css">
+</head>
+<body>
+  <div class="container"> 
+    <h1>CALCULATOR</h1> 
+  <div class="calculator">
+    <input type="text" id="result" disabled>
+    <button onclick="delexpr()" id="del">Del</button>
+    <button onclick="appendexpr(7)">7</button>
+    <button onclick="appendexpr(8)">8</button>
+    <button onclick="appendexpr(9)">9</button>
+    <button onclick="appendexpr('+')">+</button>
+    <button onclick="appendexpr(4)">4</button>
+    <button onclick="appendexpr(5)">5</button>
+    <button onclick="appendexpr(6)">6</button>
+    <button onclick="appendexpr('-')">-</button>
+    <button onclick="appendexpr(1)">1</button>
+    <button onclick="appendexpr(2)">2</button>
+    <button onclick="appendexpr(3)">3</button>
+    <button onclick="appendexpr('*')">*</button>
+    <button onclick="appendexpr(0)">0</button>
+    <button onclick="clearResult()">Clear</button>
+    <button onclick="calculateresult()">=</button>
+    <button onclick="appendexpr('/')">/</button>
+  </div>
+</div>
+<script type="text/javascript" src="myscript.js"></script>
+</body>
+</html>
